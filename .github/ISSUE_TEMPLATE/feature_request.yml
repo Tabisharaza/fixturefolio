@@ -1,0 +1,23 @@
+name: Feature or provider idea
+description: Suggest a focused improvement, provider sample, or test scenario.
+title: "idea: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to test?
+      description: Describe the current workflow and the gap. Use synthetic examples only.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: A short example is often more useful than a long feature list.
+    validations:
+      required: true
+  - type: input
+    id: reference
+    attributes:
+      label: Official provider documentation, if relevant
+      description: A public documentation URL. Do not link to private events or customer records.

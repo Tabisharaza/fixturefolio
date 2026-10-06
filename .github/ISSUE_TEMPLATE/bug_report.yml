@@ -1,0 +1,35 @@
+name: Bug report
+description: Report an unexpected result with a small synthetic example.
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use invented data only. Never include real customer payloads, credentials, or signing secrets. See SECURITY.md for sensitive reports.
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it?
+      description: Include the steps and the smallest synthetic JSON that shows the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+      description: For diff or redaction bugs, include the path and expected result.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, OS, and commit or version
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Data check
+      options:
+        - label: This report contains only synthetic data and no credentials or private information.
+          required: true
