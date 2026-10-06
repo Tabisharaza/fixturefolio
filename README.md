@@ -4,13 +4,15 @@
 
 # FixtureFolio
 
+[![CI](https://github.com/Tabisharaza/fixturefolio/actions/workflows/ci.yml/badge.svg)](https://github.com/Tabisharaza/fixturefolio/actions/workflows/ci.yml)
+
 **Turn webhook JSON into reviewable regression fixtures.**
 
 Paste a before/after payload, inspect the paths that changed, review each
 redaction, and export JSON with a small metadata manifest. FixtureFolio runs in
 your browser and includes synthetic Stripe and GitHub examples to get started.
 
-[Quick start](#quick-start) · [How it works](#how-it-works) · [Contribute](CONTRIBUTING.md) · [Security](SECURITY.md)
+[Quick start](#quick-start) · [Screenshots](#screenshots) · [How it works](#how-it-works) · [Contribute](CONTRIBUTING.md) · [Security](SECURITY.md)
 
 ## Why keep a fixture?
 
@@ -42,6 +44,23 @@ npm run dev
 
 Open the local URL printed by Vite. No account, API key, or provider connection is
 required. Start with a built-in sample before bringing your own JSON.
+
+## Screenshots
+
+Actual Chromium captures from the [browser test run](https://github.com/Tabisharaza/fixturefolio/actions/runs/37434362499), using synthetic data.
+
+![FixtureFolio desktop workspace showing the before/after JSON previews and redaction review](docs/screenshots/fixturefolio-desktop.png)
+
+*Desktop: compare payloads and review matched paths side by side.*
+
+<details>
+<summary>See the mobile layout</summary>
+
+<p><img src="docs/screenshots/fixturefolio-mobile.png" alt="FixtureFolio mobile layout with the payload and review panels stacked" width="340"></p>
+
+*Mobile: the same workflow in a stacked layout.*
+
+</details>
 
 ## How it works
 
