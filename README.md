@@ -12,7 +12,7 @@ Paste a before/after payload, inspect the paths that changed, review each
 redaction, and export JSON with a small metadata manifest. FixtureFolio runs in
 your browser and includes synthetic Stripe and GitHub examples to get started.
 
-[Quick start](#quick-start) · [Screenshots](#screenshots) · [How it works](#how-it-works) · [Contribute](CONTRIBUTING.md) · [Security](SECURITY.md)
+**[Live demo](https://tabisharaza.github.io/fixturefolio/)** · [Quick start](#quick-start) · [Screenshots](#screenshots) · [How it works](#how-it-works) · [Contribute](CONTRIBUTING.md) · [Security](SECURITY.md) · [Latest CI](https://github.com/Tabisharaza/fixturefolio/actions/workflows/ci.yml)
 
 ## Why keep a fixture?
 
